@@ -122,26 +122,23 @@ footer a{
     font-size: 16px;
   }
 
-  .hero-cta {
-      width: 35%;
-      text-align: right;
-      margin: 3.5%;
-      color: #fff;
-      font-size: 18px;
-      line-height: 1.3;
+.hero-cta {
+    width: 35%;
+    text-align: right;
+    margin: 3.5%;
+    color: #fff;
+    font-size: 18px;
+    line-height: 1.3;
   }
 
-  .hero-cta h2 {
-      font-style: italic;
-      font-size: 55px;
-      color: #fce138;
+.hero-cta h2 {
+    font-style: italic;
+    font-size: 55px;
+    color: #fce138;
   }
   
 /* Hero Style End */
 
-.intro {
-    text-align: center;
-}
 
 section{
     padding: 60px;
@@ -152,15 +149,17 @@ section{
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
     
 .primary-border {
@@ -172,7 +171,6 @@ section{
 }
 
 .steps {
-    text-align: center;
     background: #fce138;
 }
 
@@ -201,7 +199,7 @@ section{
 }
 
 .trainers {
-    text-align: center;
+
 }
 
 .trainer {
@@ -248,7 +246,6 @@ section{
 }
 
 .contact {
-    text-align: center;
     background: #024e76;
 }
 
@@ -284,4 +281,8 @@ section{
 
 .contact-info a {
     color: #fce138;
+}
+
+.flex-row {
+    display: flex;
 }
